@@ -1,49 +1,55 @@
 import streamlit as st
 import whisper
-import pyttsx3
-import tempfile
-
+import subprocess
+import sounddevice as sd
+from scipy.io.wavfile import write as write_wav
+from video_lookup import load_all_vehicles, get_video_path, correct_vehicle_names_in_query
 from ragchatbot import answer_question
 from build_knowledge_base import collection
-from search import search
-from video_lookup import load_all_vehicles, get_video_path
+
 
 all_vehicles = load_all_vehicles()
 whisper_model = whisper.load_model("base")
-tts_engine = pyttsx3.init()
 
 st.title("Mahindra Vehicle Assistant")
+
+
+def handle_question(final_question):
+    st.write(f"You asked: {final_question}")
+
+    answer = answer_question(collection, final_question)
+    st.write(answer)
+
+    video_path = get_video_path(final_question, all_vehicles)
+    if video_path:
+        st.video(video_path)
+
+    subprocess.run(["say", answer])
+
 
 st.subheader("Type your question:")
 user_question = st.text_input("Ask me about any Mahindra vehicle:")
 
-st.subheader("Or ask by voice:")
-audio_value = st.audio_input("Record your question")
-
-final_question = None
-
-if audio_value is not None:
-    with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as tmp_file:
-        tmp_file.write(audio_value.getvalue())
-        tmp_path = tmp_file.name
-
-    transcription = whisper_model.transcribe(tmp_path)
-    final_question = transcription["text"]
-    st.write(f"You said: {final_question}")
-
-elif user_question:
-    final_question = user_question
-
 if st.button("Ask"):
-    if final_question:
-        answer = answer_question(collection, final_question)
-        st.write(answer)
-
-        video_path = get_video_path(final_question, all_vehicles)
-        if video_path:
-            st.video(video_path)
-
-        tts_engine.say(answer)
-        tts_engine.runAndWait()
+    if user_question:
+        handle_question(user_question)
     else:
-        st.write("Please type or record a question first.")
+        st.write("Please type a question first.")
+
+st.subheader("Or tap to ask by voice:")
+
+if st.button("🎤 Tap to Speak"):
+    duration = 6  # seconds — adjust if questions feel cut off or too long
+    sample_rate = 16000
+
+    st.write("Listening... speak now.")
+    recording = sd.rec(int(duration * sample_rate), samplerate=sample_rate, channels=1)
+    sd.wait()
+
+    temp_path = "temp_question.wav"
+    write_wav(temp_path, sample_rate, recording)
+
+    transcription = whisper_model.transcribe(temp_path)
+    final_question = transcription["text"]
+
+    handle_question(final_question)
