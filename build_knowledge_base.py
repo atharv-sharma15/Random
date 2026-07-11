@@ -14,13 +14,24 @@ for filename in os.listdir(data_folder):
         with open(filepath, "r") as file:
             vehicle = json.load(file)
 
+        price = vehicle['price_range']
         chunks = [
-            f"{vehicle['model_name']} price range is {vehicle['price_range']}",
+            f"{vehicle['model_name']} price range is Rs. {price['ex_showroom_min_inr_lakh']} - {price['ex_showroom_max_inr_lakh']} Lakh ({price['currency']}, ex-showroom)",
             f"{vehicle['model_name']} mileage is {vehicle['mileage']}",
-            f"{vehicle['model_name']} engine options are {vehicle['engine_options']}",
             f"{vehicle['model_name']} seating capacity is {vehicle['seating_capacity']}",
             f"{vehicle['model_name']} features include {', '.join(vehicle['key_features'])}"
         ]
+
+        for engine in vehicle.get('engine_options', []):
+            chunks.append(
+                f"{vehicle['model_name']} {engine['fuel_type']} engine: {engine['engine_name']}, "
+                f"{engine['displacement_cc']}cc, {engine['power_bhp']} bhp, {engine['torque_nm']} Nm, "
+                f"transmission options: {', '.join(engine['transmission'])}, "
+                f"drivetrain: {', '.join(engine['drivetrain'])}"
+            )
+
+        for faq in vehicle.get('faqs', []):
+            chunks.append(f"{faq['question']} {faq['answer']}")
 
         for chunk in chunks:
             collection.add(documents=[chunk], ids=[f"doc{doc_id_counter}"])
