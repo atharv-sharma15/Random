@@ -1,0 +1,117 @@
+{
+    "model_name": "Mahindra XUV700",
+    "brand": "Mahindra",
+    "segment": "Mid-size SUV (Monocoque)",
+    "launch_year": 2021,
+    "price_range": {
+      "ex_showroom_min_inr_lakh": 13.66,
+      "ex_showroom_max_inr_lakh": 24.74,
+      "currency": "INR",
+      "notes": "Ex-showroom Delhi prices. Facelift called XUV 7XO launched Jan 5, 2026."
+    },
+    "variants": [
+      "MX",
+      "AX3",
+      "AX5",
+      "AX5 Select",
+      "AX7",
+      "AX7 L"
+    ],
+    "engine_options": [
+      {
+        "fuel_type": "Petrol",
+        "engine_name": "2.0L mStallion Turbo Petrol (TGDi)",
+        "displacement_cc": 1999,
+        "power_bhp": 197,
+        "torque_nm": 380,
+        "transmission": ["6-speed Manual", "6-speed Automatic (Torque Converter)"],
+        "drivetrain": ["FWD"]
+      },
+      {
+        "fuel_type": "Diesel",
+        "engine_name": "2.2L mHawk Diesel",
+        "displacement_cc": 2198,
+        "power_bhp": "152 - 182",
+        "torque_nm": "360 - 450 (variant dependent)",
+        "transmission": ["6-speed Manual", "6-speed Automatic (Torque Converter)"],
+        "drivetrain": ["FWD", "AWD (top diesel automatic variant)"]
+      }
+    ],
+    "mileage": {
+      "arai_kmpl_range": "16.57 - 17.0",
+      "notes": "Diesel manual and automatic variants; petrol variants are lower."
+    },
+    "dimensions": {
+      "length_mm": 4695,
+      "width_mm": 1890,
+      "height_mm": 1755,
+      "wheelbase_mm": 2750,
+      "ground_clearance_mm": 200,
+      "boot_space_litres": "Expandable with 3rd row folded",
+      "fuel_tank_capacity_litres": 60
+    },
+    "seating_capacity": [5, 7],
+    "fuel_types": ["Petrol", "Diesel"],
+    "transmission_types": ["Manual", "Automatic"],
+    "drivetrain_options": ["FWD", "AWD"],
+    "safety_features": [
+      "Curtain Airbags for all rows",
+      "Level 2 ADAS - Adaptive Cruise Control, Lane Keep Assist, Auto Emergency Braking, Forward Collision Warning, Traffic Sign Recognition",
+      "Electronic Parking Brake",
+      "360-degree Surround View Camera",
+      "Driver Drowsiness Detection",
+      "Personalized Safety Alerts",
+      "Tyre Pressure Monitoring System",
+      "MicroHybrid Technology"
+    ],
+    "key_features": [
+      "Dual 10.25-inch displays (infotainment + digital driver's display)",
+      "Panoramic Sunroof",
+      "6-way powered driver seat with memory function",
+      "Ventilated Front Seats",
+      "12-speaker Sony 3D sound system",
+      "Wireless Android Auto & Apple CarPlay",
+      "Built-in Alexa connectivity",
+      "Up to 70 connected car features",
+      "Dual-zone climate control",
+      "Wireless phone charging"
+    ],
+    "colors": [
+      "Midnight Black",
+      "Everest White",
+      "Valyrian Silver",
+      "Midnight Black DT",
+      "Everest White DT",
+      "Valyrian Silver DT",
+      "Burnt Sienna",
+      "Deep Forest",
+      "Stealth Black"
+    ],
+    "competitors": ["Tata Harrier", "Tata Safari", "MG Hector Plus", "Hyundai Alcazar"],
+    "faqs": [
+      {
+        "question": "What is the price of Mahindra XUV700?",
+        "answer": "The Mahindra XUV700 is priced between approximately Rs. 13.66 Lakh and Rs. 24.74 Lakh (ex-showroom), depending on the variant, engine, transmission, and drivetrain."
+      },
+      {
+        "question": "Does the XUV700 come with AWD?",
+        "answer": "Yes, an all-wheel-drive (AWD) option is available on the top-spec diesel automatic variant of the XUV700."
+      },
+      {
+        "question": "Is the XUV700 a 5-seater or 7-seater?",
+        "answer": "The XUV700 is available in both 5-seater and 7-seater layouts depending on the variant."
+      },
+      {
+        "question": "Does the XUV700 have ADAS?",
+        "answer": "Yes, the XUV700 offers a Level 2 ADAS suite including adaptive cruise control, lane keep assist, auto emergency braking, and forward collision warning on higher variants."
+      },
+      {
+        "question": "Has the XUV700 been facelifted?",
+        "answer": "Yes, Mahindra launched a facelifted version of the XUV700 called the XUV 7XO on January 5, 2026, with updated styling and features."
+      }
+    ],
+    "video_path": "_BGpJaKKTHo",
+    "video_title": "Mahindra XUV700 Review - Interior, Exterior, Performance, Specs & Features | carandbike",
+    "video_source": "carandbike (YouTube)",
+    "last_updated": "2026-07-10"
+  }

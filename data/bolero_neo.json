@@ -1,0 +1,101 @@
+{
+    "model_name": "Mahindra Bolero Neo",
+    "brand": "Mahindra",
+    "segment": "Compact SUV (Body-on-Frame)",
+    "launch_year": 2021,
+    "price_range": {
+      "ex_showroom_min_inr_lakh": 8.85,
+      "ex_showroom_max_inr_lakh": 10.79,
+      "currency": "INR",
+      "notes": "Ex-showroom Delhi prices for the current (2025 facelift) Bolero Neo, may vary by city and offers."
+    },
+    "variants": [
+      "N4",
+      "N8",
+      "N10",
+      "N10(O)",
+      "N11"
+    ],
+    "engine_options": [
+      {
+        "fuel_type": "Diesel",
+        "engine_name": "1.5L mHawk100 Turbo Diesel",
+        "displacement_cc": 1493,
+        "power_bhp": 100,
+        "torque_nm": 260,
+        "transmission": ["5-speed Manual"],
+        "drivetrain": ["RWD"]
+      }
+    ],
+    "mileage": {
+      "arai_kmpl_range": "16.0 - 18.04",
+      "notes": "ARAI-certified mileage; real-world figures typically 14-17 kmpl."
+    },
+    "dimensions": {
+      "length_mm": 3995,
+      "width_mm": 1820,
+      "height_mm": 1817,
+      "wheelbase_mm": 2680,
+      "ground_clearance_mm": 180,
+      "boot_space_litres": 384,
+      "fuel_tank_capacity_litres": 50
+    },
+    "seating_capacity": [7],
+    "fuel_types": ["Diesel"],
+    "transmission_types": ["Manual"],
+    "drivetrain_options": ["RWD"],
+    "safety_features": [
+      "Dual Airbags",
+      "ABS with EBD",
+      "ESP (Micro Hybrid tech - select variants)",
+      "Hill Hold (select variants)",
+      "ISOFIX Child Seat Mounts",
+      "Rear Parking Camera (top variants)",
+      "1-star Global NCAP rating"
+    ],
+    "key_features": [
+      "3rd Generation Scorpio ladder-frame chassis with Multi-Terrain Technology (MTT)",
+      "9-inch touchscreen infotainment with Apple CarPlay/Android Auto",
+      "16-inch alloy wheels",
+      "Cruise Control (top variants)",
+      "Leatherette upholstery",
+      "Rear wiper and defogger",
+      "Body-coloured bumpers and chrome grille accents"
+    ],
+    "colors": [
+      "Rocky Beige",
+      "DSAT Silver",
+      "Diamond White",
+      "Napoli Black",
+      "Pearl White",
+      "Jeans Blue",
+      "Concrete Grey"
+    ],
+    "competitors": ["Mahindra Bolero", "Tata Punch", "Maruti Suzuki Ertiga"],
+    "faqs": [
+      {
+        "question": "What is the price of Mahindra Bolero Neo?",
+        "answer": "The Mahindra Bolero Neo is priced between approximately Rs. 8.85 Lakh and Rs. 10.79 Lakh (ex-showroom), depending on the variant."
+      },
+      {
+        "question": "What is the difference between Bolero and Bolero Neo?",
+        "answer": "The Bolero Neo is a more premium and modern alternative to the standard Bolero, with a more powerful 100 bhp diesel engine, better features like a 9-inch touchscreen, cruise control, and a more contemporary design, while sharing the same body-on-frame ruggedness."
+      },
+      {
+        "question": "What engine does the Bolero Neo use?",
+        "answer": "The Bolero Neo uses a 1.5-litre mHawk100 turbocharged diesel engine producing 100 bhp and 260 Nm of torque, paired with a 5-speed manual gearbox."
+      },
+      {
+        "question": "Does the Bolero Neo have a sunroof?",
+        "answer": "No, the Mahindra Bolero Neo does not offer a sunroof in any variant."
+      },
+      {
+        "question": "Is there a bigger version of the Bolero Neo?",
+        "answer": "Yes, the Bolero Neo+ is a longer, 9-seater version of the Bolero Neo aimed at larger families and commercial use."
+      }
+    ],
+    "video_path": "x2oVv2gpeyY",
+    "video_title": "The carandbike Show - Mahindra Bolero Neo Review",
+    "video_source": "carandbike (YouTube)",
+    "last_updated": "2026-07-10"
+  }

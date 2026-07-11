@@ -1,0 +1,116 @@
+{
+    "model_name": "Mahindra Thar",
+    "brand": "Mahindra",
+    "segment": "Lifestyle Off-Road SUV (3-Door)",
+    "launch_year": 2020,
+    "price_range": {
+      "ex_showroom_min_inr_lakh": 9.99,
+      "ex_showroom_max_inr_lakh": 18.0,
+      "currency": "INR",
+      "notes": "Ex-showroom Delhi prices for the 3-door Thar (facelift), may vary by city and offers. Not to be confused with the 5-door Thar Roxx."
+    },
+    "variants": [
+      "AXT RWD",
+      "LXT RWD",
+      "LXT RWD AT",
+      "LXT 4WD",
+      "LXT 4WD Diesel",
+      "LXT 4WD AT",
+      "LXT 4WD Diesel AT"
+    ],
+    "engine_options": [
+      {
+        "fuel_type": "Petrol",
+        "engine_name": "2.0L mStallion Turbo Petrol",
+        "displacement_cc": 1997,
+        "power_bhp": "150 - 152",
+        "torque_nm": "300 (MT) / 320 (AT)",
+        "transmission": ["6-speed Manual", "6-speed Automatic (Torque Converter)"],
+        "drivetrain": ["RWD (AT only)", "4WD (MT)"]
+      },
+      {
+        "fuel_type": "Diesel",
+        "engine_name": "1.5L Diesel",
+        "displacement_cc": 1497,
+        "power_bhp": 119,
+        "torque_nm": 300,
+        "transmission": ["6-speed Manual"],
+        "drivetrain": ["RWD"]
+      },
+      {
+        "fuel_type": "Diesel",
+        "engine_name": "2.2L mHawk Diesel",
+        "displacement_cc": 2184,
+        "power_bhp": 132,
+        "torque_nm": 300,
+        "transmission": ["6-speed Manual", "6-speed Automatic (Torque Converter)"],
+        "drivetrain": ["4WD"]
+      }
+    ],
+    "mileage": {
+      "arai_kmpl_range": "8.0 - 15.0",
+      "notes": "Varies significantly by engine, transmission, and drivetrain; petrol/diesel 4x4 variants have lower mileage."
+    },
+    "dimensions": {
+      "length_mm": 3985,
+      "width_mm": 1820,
+      "height_mm": 1855,
+      "wheelbase_mm": 2450,
+      "ground_clearance_mm": 226,
+      "boot_space_litres": "Minimal with rear seats up",
+      "fuel_tank_capacity_litres": 57
+    },
+    "seating_capacity": [4],
+    "fuel_types": ["Petrol", "Diesel"],
+    "transmission_types": ["Manual", "Automatic"],
+    "drivetrain_options": ["RWD", "4WD"],
+    "safety_features": [
+      "Dual Front Airbags (up to 6 airbags on updated versions)",
+      "Electronic Stability Program (ESP)",
+      "Hill Hold and Hill Descent Control",
+      "Roll Cage Structure",
+      "ABS with EBD",
+      "Rear Camera (facelift)",
+      "TPMS (select variants)"
+    ],
+    "key_features": [
+      "10.25-inch touchscreen infotainment (facelift)",
+      "Removable Roof (Hard Top / Soft Top / Convertible options)",
+      "4x4 with Low Range Transfer Case",
+      "Adventure Statistics Display (Gen II)",
+      "Rear AC Vents (facelift)",
+      "Wireless Android Auto & Apple CarPlay (facelift)",
+      "Side-hinged tailgate with rear-mounted spare wheel"
+    ],
+    "colors": [
+      "Everest White",
+      "Galaxy Grey",
+      "Stealth Black",
+      "Battleship Gray",
+      "Deep Forest",
+      "Tango Red"
+    ],
+    "competitors": ["Force Gurkha", "Maruti Suzuki Jimny"],
+    "faqs": [
+      {
+        "question": "What is the price of Mahindra Thar?",
+        "answer": "The 3-door Mahindra Thar is priced between approximately Rs. 9.99 Lakh and Rs. 18 Lakh (ex-showroom), depending on the variant, engine, transmission, and drivetrain."
+      },
+      {
+        "question": "Is the Mahindra Thar a 4-seater?",
+        "answer": "Yes, the 3-door Mahindra Thar is a 4-seater vehicle. Buyers wanting more seats and practicality can consider the 5-door Thar Roxx."
+      },
+      {
+        "question": "What engines does the Thar offer?",
+        "answer": "The Thar offers a 2.0L turbo-petrol engine, a 1.5L diesel engine, and a 2.2L mHawk diesel engine, with manual and automatic transmission choices and RWD/4WD drivetrain options depending on the engine."
+      },
+      {
+        "question": "Does the Thar have a removable roof?",
+        "answer": "Yes, the Thar is available with hard top, soft top, and convertible roof options depending on the variant and region."
+      }
+    ],
+    "video_path": "qxEXE1QGhPY",
+    "video_title": "2025 Mahindra Thar review - All about the details | First Drive | Autocar India",
+    "video_source": "Autocar India (YouTube)",
+    "last_updated": "2026-07-10"
+  }

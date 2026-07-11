@@ -1,0 +1,66 @@
+RAG Chatbot Test Results
+Generated: 2026-07-11 11:55:42
+======================================================================
+
+Q1: What is the mileage of the XUV700?
+A1: The mileage of the Mahindra XUV700 is 16.57 - 17.0 kmpl (ARAI-certified range).
+----------------------------------------------------------------------
+
+Q2: Does the XUV700 have ADAS features?
+A2: I don't have that information.
+----------------------------------------------------------------------
+
+Q3: What is the price range of the Scorpio-N?
+A3: The Mahindra Scorpio-N price range is 13.49 - 24.95 lakh INR (ex-showroom Delhi).
+----------------------------------------------------------------------
+
+Q4: Is 4WD available on the Scorpio-N?
+A4: The provided context does not explicitly state "4WD," but it mentions that the Mahindra Scorpio-N features "4XPLOR Terrain Response Modes (Snow, Sand, Mud)," which relates to its drivetrain.
+----------------------------------------------------------------------
+
+Q5: What engines are available in the Thar?
+A5: The Mahindra Thar is available with the following engines:
+
+*   **2.0L mStallion Turbo Petrol:** 1997 cc, 150 - 152 bhp, 300 Nm (MT) / 320 Nm (AT), 6-speed Manual or 6-speed Automatic (Torque Converter), RWD (AT only) or 4WD (MT).
+*   **1.5L Diesel:** 1497 cc, 119 bhp, 300 Nm, 6-speed Manual, RWD.
+*   **2.2L mHawk Diesel:** 2184 cc, 132 bhp, 300 Nm, 6-speed Manual or 6-speed Automatic (Torque Converter), 4WD.
+----------------------------------------------------------------------
+
+Q6: Is the Thar a 5-seater?
+A6: No, it is a 4-seater.
+----------------------------------------------------------------------
+
+Q7: What is the seating capacity of the Bolero?
+A7: The seating capacity of the Bolero is 7.
+----------------------------------------------------------------------
+
+Q8: Does the Bolero come with a sunroof?
+A8: I don't have that information.
+----------------------------------------------------------------------
+
+Q9: What is the engine power of the Bolero Neo?
+A9: The engine power of the Bolero Neo is 100 bhp.
+----------------------------------------------------------------------
+
+Q10: How is the Bolero Neo different from the Bolero?
+A10: Based on the provided context, the differences are:
+
+**Mahindra Bolero Neo features:**
+*   3rd Generation Scorpio ladder-frame chassis with Multi-Terrain Technology (MTT)
+*   9-inch touchscreen infotainment with Apple CarPlay/Android Auto
+*   16-inch alloy wheels
+*   Cruise Control (top variants)
+*   Leatherette upholstery
+*   Rear wiper and defogger
+*   Body-coloured bumpers and chrome grille accents
+*   Engine: 1.5L mHawk100 Turbo Diesel (100 bhp, 260 Nm) with 5-speed Manual transmission and RWD
+
+**Mahindra Bolero features:**
+*   Ladder-frame chassis (no mention of 3rd Gen Scorpio or MTT)
+*   High seating position
+*   Low maintenance and running costs
+*   Robust 3-cylinder mHawk diesel engine
+*   Practical 7-seater layout
+*   Power Steering
+----------------------------------------------------------------------
+

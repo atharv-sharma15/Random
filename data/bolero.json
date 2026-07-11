@@ -1,0 +1,95 @@
+{
+    "model_name": "Mahindra Bolero",
+    "brand": "Mahindra",
+    "segment": "Entry-level SUV (Body-on-Frame)",
+    "launch_year": 2000,
+    "price_range": {
+      "ex_showroom_min_inr_lakh": 7.99,
+      "ex_showroom_max_inr_lakh": 9.9,
+      "currency": "INR",
+      "notes": "Ex-showroom Delhi prices for the current-generation Bolero (2025 facelift), may vary by city and offers. An all-new next-gen Bolero on a new platform is expected later in 2026."
+    },
+    "variants": [
+      "B4",
+      "B6",
+      "B6(O)",
+      "B8"
+    ],
+    "engine_options": [
+      {
+        "fuel_type": "Diesel",
+        "engine_name": "1.5L mHawk75 Diesel",
+        "displacement_cc": 1493,
+        "power_bhp": 75,
+        "torque_nm": 210,
+        "transmission": ["5-speed Manual"],
+        "drivetrain": ["RWD"]
+      }
+    ],
+    "mileage": {
+      "arai_kmpl_range": "16.0",
+      "notes": "ARAI-certified mileage for the diesel manual variant."
+    },
+    "dimensions": {
+      "length_mm": 3995,
+      "width_mm": 1745,
+      "height_mm": 1880,
+      "wheelbase_mm": 2680,
+      "ground_clearance_mm": 180,
+      "boot_space_litres": "Usable with 3rd row folded",
+      "fuel_tank_capacity_litres": 60
+    },
+    "seating_capacity": [7],
+    "fuel_types": ["Diesel"],
+    "transmission_types": ["Manual"],
+    "drivetrain_options": ["RWD"],
+    "safety_features": [
+      "2 Airbags (Driver, Front Passenger)",
+      "ABS with EBD",
+      "Seat Belt Warning",
+      "Engine Immobiliser",
+      "Central Locking",
+      "Child Safety Lock",
+      "Overspeed Warning"
+    ],
+    "key_features": [
+      "Ladder-frame chassis for durability",
+      "High seating position",
+      "Low maintenance and running costs",
+      "Robust 3-cylinder mHawk diesel engine",
+      "Practical 7-seater layout for rural/family use",
+      "Power Steering"
+    ],
+    "colors": [
+      "Diamond White",
+      "Dsat Silver",
+      "Lakeside Brown"
+    ],
+    "competitors": ["Mahindra Bolero Neo", "Maruti Suzuki Ertiga", "Toyota Rumion"],
+    "faqs": [
+      {
+        "question": "What is the price of Mahindra Bolero?",
+        "answer": "The Mahindra Bolero is priced between approximately Rs. 7.99 Lakh and Rs. 9.90 Lakh (ex-showroom), depending on the variant."
+      },
+      {
+        "question": "What engine does the Bolero have?",
+        "answer": "The Bolero is powered by a 1.5-litre mHawk75 diesel engine producing 75 bhp and 210 Nm of torque, paired with a 5-speed manual gearbox."
+      },
+      {
+        "question": "Is the Bolero available in petrol or automatic?",
+        "answer": "No, the current Mahindra Bolero is offered only with a diesel engine and manual transmission."
+      },
+      {
+        "question": "How many people can the Bolero seat?",
+        "answer": "The Mahindra Bolero is a 7-seater SUV."
+      },
+      {
+        "question": "Is a new-generation Bolero coming?",
+        "answer": "Yes, Mahindra is expected to launch an all-new Bolero built on a new platform (New Flexible Architecture) in 2026, with an updated design, more features, and possibly ADAS."
+      }
+    ],
+    "video_path": "uFB7Q66a2G8",
+    "video_title": "Mahindra Bolero 2024 | Complete Drive Review With Features & Mileage",
+    "video_source": "YouTube",
+    "last_updated": "2026-07-10"
+  }

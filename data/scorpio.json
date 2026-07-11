@@ -1,0 +1,111 @@
+{
+    "model_name": "Mahindra Scorpio-N",
+    "brand": "Mahindra",
+    "segment": "Mid-size SUV (Body-on-Frame)",
+    "launch_year": 2022,
+    "price_range": {
+      "ex_showroom_min_inr_lakh": 13.49,
+      "ex_showroom_max_inr_lakh": 24.95,
+      "currency": "INR",
+      "notes": "Ex-showroom Delhi prices, may vary by city and offers."
+    },
+    "variants": [
+      "Z2",
+      "Z4",
+      "Z6",
+      "Z8 S",
+      "Z8",
+      "Z8 T",
+      "Z8 L"
+    ],
+    "engine_options": [
+      {
+        "fuel_type": "Petrol",
+        "engine_name": "2.0L mStallion Turbo Petrol",
+        "displacement_cc": 1997,
+        "power_bhp": 203,
+        "torque_nm": "370 (MT) / 380 (AT)",
+        "transmission": ["6-speed Manual", "6-speed Automatic (Torque Converter)"],
+        "drivetrain": ["RWD"]
+      },
+      {
+        "fuel_type": "Diesel",
+        "engine_name": "2.2L mHawk Diesel",
+        "displacement_cc": 2184,
+        "power_bhp": "132 - 175 (variant dependent)",
+        "torque_nm": "300 - 400 (variant dependent)",
+        "transmission": ["6-speed Manual", "6-speed Automatic (Torque Converter)"],
+        "drivetrain": ["RWD", "4WD (select diesel variants)"]
+      }
+    ],
+    "mileage": {
+      "arai_kmpl_range": "10.5 - 17.0",
+      "notes": "Varies by fuel type, transmission and drivetrain."
+    },
+    "dimensions": {
+      "length_mm": 4662,
+      "width_mm": 1917,
+      "height_mm": 1857,
+      "wheelbase_mm": 2750,
+      "ground_clearance_mm": 226,
+      "boot_space_litres": 192,
+      "fuel_tank_capacity_litres": 57
+    },
+    "seating_capacity": [6, 7],
+    "fuel_types": ["Petrol", "Diesel"],
+    "transmission_types": ["Manual", "Automatic"],
+    "drivetrain_options": ["RWD", "4WD"],
+    "safety_features": [
+      "6 Airbags (top variants)",
+      "Electronic Stability Program (ESP)",
+      "Level 2 ADAS (select variants) - Adaptive Cruise Control, Lane Departure Warning, Forward Collision Warning, Auto Emergency Braking",
+      "Hill Hold and Hill Descent Control",
+      "All Wheel Disc Brakes (top variants)",
+      "360-degree Camera",
+      "Tyre Pressure Monitoring System (TPMS)",
+      "ISOFIX Child Seat Mounts",
+      "5-star GNCAP Safety Rating"
+    ],
+    "key_features": [
+      "Dual 10.25-inch displays (infotainment + digital cluster)",
+      "Panoramic Sunroof",
+      "Ventilated Front Seats (top variants)",
+      "Electronic Parking Brake",
+      "Wireless Android Auto & Apple CarPlay",
+      "Harman Kardon / Sony premium sound system",
+      "4XPLOR Terrain Response Modes (Snow, Sand, Mud)",
+      "Ambient Lighting",
+      "Cooled Glovebox"
+    ],
+    "colors": [
+      "Everest White",
+      "Stealth Black",
+      "Valyrian Silver",
+      "Deep Forest",
+      "Midnight Black",
+      "Nebula Blue"
+    ],
+    "competitors": ["Tata Harrier", "Tata Safari", "MG Hector Plus", "Toyota Innova Crysta"],
+    "faqs": [
+      {
+        "question": "What is the price of Mahindra Scorpio-N?",
+        "answer": "The Mahindra Scorpio-N is priced between approximately Rs. 13.49 Lakh and Rs. 24.95 Lakh (ex-showroom), depending on the variant, fuel type, transmission, and drivetrain."
+      },
+      {
+        "question": "Does the Scorpio-N come with 4WD?",
+        "answer": "Yes, 4WD is available on select diesel variants of the Scorpio-N, paired with either a manual or automatic transmission."
+      },
+      {
+        "question": "What is the seating capacity of the Scorpio-N?",
+        "answer": "The Scorpio-N is available in both 6-seater and 7-seater configurations depending on the variant."
+      },
+      {
+        "question": "Does the Scorpio-N have ADAS?",
+        "answer": "Yes, select higher variants of the Scorpio-N come equipped with a Level 2 ADAS suite including adaptive cruise control, lane departure warning, and autonomous emergency braking."
+      }
+    ],
+    "video_path": "O-bg6Rrz5_0",
+    "video_title": "The car&bike Show - New-Gen Mahindra Scorpio-N Review",
+    "video_source": "carandbike (YouTube)",
+    "last_updated": "2026-07-10"
+  }
